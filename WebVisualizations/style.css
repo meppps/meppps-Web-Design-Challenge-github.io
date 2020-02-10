@@ -1,0 +1,50 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.customCont{
+    background-color: #f4f4f4;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    word-wrap: break-word;
+}
+
+@media screen and (min-width: 768px){
+
+    .cardOne{
+        margin-left: 100px;
+        margin-right: 50px;
+        max-width: 600px;
+    }
+
+    .cardTwo{
+        margin-right: 50px;
+    }
+
+    .rowOne{
+        margin-top: 10%;
+    }
+
+    img{
+        height: 150px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        display: block !important;
+        max-width: 100%;
+    }
+
+    table{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+
+}
