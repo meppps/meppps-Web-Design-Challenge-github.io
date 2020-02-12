@@ -9,31 +9,19 @@ body{
     text-align: center;
 }
 
-.card-text{
-    word-wrap: break-word;
-}
-
-@media screen and (min-width: 768px){
-
-    .cardOne{
-        margin-left: 100px;
-        margin-right: 50px;
-        max-width: 600px;
-    }
-
-    .cardTwo{
-        margin-right: 50px;
-    }
 
     .rowOne{
         margin-top: 10%;
+        margin-left: 150px;
     }
 
     img{
         height: 150px;
     }
 
-}
+    .card-body{
+        max-width: 641px;
+    }
 
 @media screen and (max-width: 768px){
     .row{
@@ -42,8 +30,17 @@ body{
     }
 
     table{
-        display: inline-flex;
+        display: inline-table;
         flex-direction: column;
+    }
+    .rowOne{
+        margin-left: 0;
+    }
+
+    .card-body img{
+        /* display: flex; */
+        /* margin-right: 200px; */
+        max-width: 100%;
     }
 
 

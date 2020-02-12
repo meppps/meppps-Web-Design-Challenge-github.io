@@ -1,0 +1,40 @@
+
+.col{
+    flex-grow: 0 !important;
+}
+
+.row{
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+
+table img{
+    height: 183px;
+}
+
+
+.cont{
+    background: #fff;
+}
+
+figure{
+    margin: 0 !important;
+}
+
+
+body{
+    background-color: #f4f4f4;
+}
+
+.vizmap{
+    text-align: center;
+}
+
+/* @media screen and (max-width: 768px){
+    .wrap{
+        max-width: 100%;
+        text-align: center;
+    }
+} */

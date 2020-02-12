@@ -1,0 +1,41 @@
+
+body{
+    background-color: #f4f4f4;
+}
+
+h1,p{
+    text-align: center;
+}
+
+.wrapper{
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+img{
+    position: relative;
+    /* right: 25%; */
+    /* left: 50%; */
+}
+
+.wrap{
+    text-align: center;
+}
+
+/* auto doesn't work? */
+.container{
+    max-width: auto !important;
+}
+
+
+ @media screen and (max-width: 768px){
+    .container{
+        display: block !important;
+    }
+    .col{
+        flex-grow: 0 !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

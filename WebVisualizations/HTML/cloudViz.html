@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Welcome!</title>
-    <link rel="stylesheet" href="comparison.css">
+    <link rel="stylesheet" href="../CSS/viz.css">
 </head>
 <body>
 
@@ -20,17 +20,17 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="landing.html">Home <span class="sr-only">(current)</span></a>
             </li>
 
 
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Comparsion<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="comparison.html">Comparsion<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Data<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item dropdown">
@@ -50,26 +50,46 @@
         </div>
       </nav>
 
-      <div class="container">
+    <!-- <div class="wrapper"> -->
+<div class="row">
 
-        <h1>Comparison: Latitude vs X</h1>
-        <p>Click any plot to see an in depth analysis.</p>
 
-      <table>
-        <th>
-            <tr>
-                <td>><img src="Images/Cloudiness.png" alt=""></td>
-                <td><img src="Images/Humidity.png" alt=""></td>
-            </tr>
-            <tr>
-                <td><img src="Images/Temp.png" alt=""></td>
-                <td><img src="Images/Wind.png" alt=""></td>
-            </tr>
-        </th>
-    </table>
 
+  <div class="col-sm-6">
+    <div class="cont">
+    <div class="vizimap">
+      <h1>Cloudiness</h1>
+      <figure><img src="../Images/Cloudiness.png" alt=""></figure>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero repellendus cum ipsum, repellat nisi saepe voluptatum ad unde eum est quod accusantium aperiam totam veritatis! Vitae explicabo id eius.</p> -->
+    </div>
+  </div>
 </div>
 
 
+  <div class="col-sm-6">
+    <div class="cont">
+    <div class="vizmap">
+      <h1>Visualizations</h1>
+      <table>
+        <th>
+          <tr>
+            <td><img src="../Images/Cloudiness.png" alt=""></td>
+            <td><img src="../Images/Humidity.png" alt=""></td>
+          </tr>
+          <tr>
+            <td><img src="../Images/Temp.png" alt=""></td>
+            <td><img src="../Images/Wind.png" alt=""></td>
+          </tr>
+        </th>
+      </table>
+    </div>
+  </div>
+</div>
 
-</body>      
+
+</div>
+
+      
+    <!-- </div> -->
+
+</body>

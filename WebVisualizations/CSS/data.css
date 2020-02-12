@@ -1,0 +1,13 @@
+.wrap{
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+tr{
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: #98ffcc;
+}
+
