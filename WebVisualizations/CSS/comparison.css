@@ -1,9 +1,9 @@
 
-body{
+body,table{
     background-color: #f4f4f4;
 }
 
-h1,p{
+/* h1,p{
     text-align: center;
 }
 
@@ -16,41 +16,12 @@ img{
     position: relative;
     /* right: 25%; */
     /* left: 50%; */
-}
-
-.wrap{
-    text-align: center;
-}
 
 
-
-/* .box{
-    position: relative;
-    left: 25%;
-    right: 10%;
-    max-width: 100%;
-} */
-
-@media screen and(max-width: 1000px){
-    tbody{
-        /* display: ;
-        flex-direction: column;  */
+    table{
+        max-width: 1000px;
     }
-}
-/* auto doesn't work?
-.container{
-    max-width: auto !important;
-} */
 
-
- @media screen and (max-width: 768px){
-    .container{
-        /* display: block !important; */
+    .row{
+        margin-left: 71px;
     }
-    .col{
-        /* flex-grow: 0 !important;
-        margin-left: auto;
-        margin-right: auto; */
-    }
-}
-

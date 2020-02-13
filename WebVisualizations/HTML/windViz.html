@@ -1,90 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>Wind</title>
-    <link rel="stylesheet" href="../CSS/viz.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Wind</title>
+  <link rel="stylesheet" href="../CSS/viz.css">
 </head>
+
 <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Lattitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="landing.html">Home <span class="sr-only">(current)</span></a>
-            </li>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Lattitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
 
 
 
-              <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparsion<span class="sr-only">(current)</span></a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparsion<span class="sr-only">(current)</span></a>
+        </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
+        </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-                </a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
 
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="humidityViz.html">Humidity</a>
+            <a class="dropdown-item" href="tempViz.html">Temperature</a>
+            <a class="dropdown-item" href="windViz.html">Wind</a>
+            <a class="dropdown-item" href="cloudViz.html">Cloudiness</a>
+          </div>
 
-              </li>
+        </li>
 
-          </ul>
-        </div>
-      </nav>
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-
-
-      <h1>Wind</h1>
-      <figure><img src="../Images/Wind.png" alt=""></figure>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, ducimus. Iure, qui eius sequi quasi repellat repudiandae optio asperiores delectus reiciendis? Sunt doloribus eaque illo? Pariatur sequi voluptatem maxime cum.</p>
-
-
+      </ul>
     </div>
-    <div class="col">
+  </nav>
 
 
 
-      <h1>Visualizations</h1>
-      <table>
-        <th>
-          <tr>
-            <td><a href="cloudViz.html"><img src="../Images/Cloudiness.png" alt=""></a></td>
-            <td><a href="humidityViz.html"><img src="../Images/Humidity.png" alt=""></a></td>
-          </tr>
-          <tr>
-            <td><a href="tempViz.html"><img src="../Images/Temp.png" alt=""></a></td>
-            <td><a href="windViz.html"><img src="../Images/Wind.png" alt="" class="active">></a></td>
-          </tr>
-        </th>
-      </table>
+  <div class="container">
+    <div class="row">
+      <div class="col">
 
 
+        <h1>Wind</h1>
+        <figure><img src="../Images/Wind.png" alt=""></figure>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, ducimus. Iure, qui eius sequi quasi
+          repellat repudiandae optio asperiores delectus reiciendis? Sunt doloribus eaque illo? Pariatur sequi
+          voluptatem maxime cum.</p>
+
+
+      </div>
+      <div class="col">
+
+
+
+        <h1>Visualizations</h1>
+        <table>
+          <th>
+            <tr>
+              <td><a href="cloudViz.html"><img src="../Images/Cloudiness.png" alt=""></a></td>
+              <td><a href="humidityViz.html"><img src="../Images/Humidity.png" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><a href="tempViz.html"><img src="../Images/Temp.png" alt=""></a></td>
+              <td><a href="windViz.html"><img src="../Images/Wind.png" alt="" class="active">></a></td>
+            </tr>
+          </th>
+        </table>
+
+
+      </div>
     </div>
-  </div>
-      
+
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
