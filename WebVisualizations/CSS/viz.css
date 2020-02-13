@@ -1,13 +1,11 @@
 
 .col{
     flex-grow: 0 !important;
+    background: #fff;
+    text-align: center;
+    margin: 3px;
+    margin-top: 10px;
 }
-
-.row{
-/* margin-left: 100px;
-margin-right: 100px; */
-}
-
 
 
 table img{
@@ -38,3 +36,7 @@ body{
         text-align: center;
     }
 } */
+
+img.active{
+    border: 3px solid black;
+}

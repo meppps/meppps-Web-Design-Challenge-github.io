@@ -22,20 +22,35 @@ img{
     text-align: center;
 }
 
-/* auto doesn't work? */
+
+
+/* .box{
+    position: relative;
+    left: 25%;
+    right: 10%;
+    max-width: 100%;
+} */
+
+@media screen and(max-width: 1000px){
+    tbody{
+        /* display: ;
+        flex-direction: column;  */
+    }
+}
+/* auto doesn't work?
 .container{
     max-width: auto !important;
-}
+} */
 
 
  @media screen and (max-width: 768px){
     .container{
-        display: block !important;
+        /* display: block !important; */
     }
     .col{
-        flex-grow: 0 !important;
+        /* flex-grow: 0 !important;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
     }
 }
 

@@ -2,21 +2,20 @@ body{
     background-color: #f4f4f4;
 }
 
-.customCont{
-    background-color: #f4f4f4;
-}
 .card-title{
     text-align: center;
 }
 
-
-    .rowOne{
-        margin-top: 10%;
-        margin-left: 150px;
+    .card{
+        margin-top: 60px;
     }
 
-    img{
+    table img{
         height: 150px;
+    }
+
+    figure{
+        display: flex;
     }
 
     .card-body{
@@ -30,11 +29,8 @@ body{
     }
 
     table{
-        display: inline-table;
-        flex-direction: column;
-    }
-    .rowOne{
-        margin-left: 0;
+        display: flex;
+        flex-direction: row;
     }
 
     .card-body img{
@@ -43,5 +39,14 @@ body{
         max-width: 100%;
     }
 
+}
 
+
+@media screen and (max-width: 1300px){
+    tbody{
+        display: inline-flex;
+    }
+    .card-body2{
+        max-width: 100%;
+    }
 }
